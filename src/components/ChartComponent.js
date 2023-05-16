@@ -50,7 +50,7 @@ const ChartComponent = ({ chart, screenSize, freq }) => {
         width={Math.min(900, screenSize.width)}
         height={Math.min(500, screenSize.height)}
       />}
-      <button className="bg-blue-700 text-white px-4 py-2 rounded-md" onClick={handleExport}>
+      <button className="bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-teal-300 hover:text-black hover:font-medium  transition-all duration-75 ease-in'" onClick={handleExport}>
         Export CSV
       </button>
     </motion.div>
