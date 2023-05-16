@@ -4,8 +4,18 @@
 
 ***This project is a web application that fetches a text file from an API and plots a histogram of the 20 most occurring words in the text file.***
 
-There are 3 components : 
-`1` ChartComponents -> 
+### Libraries and Framework used
+- ***React***
+- ***Framer Motion***
+- ***React ApexCharts***
+- ***ExcelJS***
+- ***FileSaver***
+- ***axios***
+
+### There are 2 main components : 
+`1` **Button** ->  this component renders a button that can be animated using Framer Motion. The animation is controlled by the show prop, which determines whether the button moves up or returns to its original position. The handleBtnClick function is executed when the button is clicked, allowing for custom functionality to be implemented.
+
+`2` **ChartComponents** -> 
 - React: It imports the React library to create and manage the component.
 
 - Framer Motion: It imports the motion component from the Framer Motion library. This library provides animation capabilities to React components. In this component, it animates the div element with a spring-like transition when it comes into view.
@@ -21,20 +31,18 @@ There are 3 components :
 - Additionally, the component includes a button labeled "Export CSV." When the button is clicked, the handleExport function is triggered. This function uses ExcelJS to generate a CSV file based on the freq prop, which represents word frequencies. The CSV file is then downloaded to the user's device using
 
 
+### To run this in your system 
+
+- ***step1*** ->  git clone https://github.com/shiv292003/Terribly-Tiny-Tale-.git
 
 
-To run this in your system 
+**install dependencies**
 
-step1 ->  git clone https://github.com/shiv292003/Terribly-Tiny-Tale-.git
-
-
-install dependencies
-
-step2 -> npm install
+- ***step2*** -> npm install
 
 
-start the project
+**start the project**
 
-step3 -> npm start 
+- ***step3*** -> npm start 
 
 
